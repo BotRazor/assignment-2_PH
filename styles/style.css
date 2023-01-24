@@ -1,12 +1,12 @@
 * {
     margin: 0;
-    
+
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
 
-.header{
-    position: absolute;
+.header {
+
     background: rgba(255, 144, 14, 0.1);
 }
 
@@ -55,6 +55,7 @@ nav ul {
     line-height: 26px;
     margin-bottom: 32px;
 }
+
 .btn-primary {
     height: 64px;
     background: #FF900E;
@@ -67,7 +68,130 @@ nav ul {
     line-height: 23px;
     text-align: center;
 }
-.banner-image{
+
+.banner-image {
     margin-top: 50px;
     margin: 0, 230px;
+    margin-bottom: 45px;
+}
+
+.container {
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.grey-txt {
+    color: #727272;
+    font-weight: 500;
+    line-height: 53px;
+}
+
+.black-txt {
+    color: #131313;
+}
+
+.Orange-txt {
+    color: #FF900E;
+
+}
+
+.quick-description {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.quick {
+    margin-left: 73px;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.features {
+    margin-bottom: 30px;
+}
+
+.box {
+
+    display: grid;
+    grid-template-columns: repeat(1, 580px);
+    grid-row-gap: 20px;
+    justify-content: center;
+
+
+}
+
+.feature-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.small-box {
+    border: 2px solid white;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 0 grey;
+
+}
+
+.small-box-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.favourite {
+    margin-top: 130px;
+    margin: 0, 200px;
+    display: flex;
+
+}
+
+.btn-secondary {
+    height: 200px;
+    width: 360px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 40px 42px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    border: 0;
+    text-align: center;
+}
+
+.mini {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+#btn-secondary-box{
+    position: absolute;
+    top: 3000px;
+    right: 400px;
 }
